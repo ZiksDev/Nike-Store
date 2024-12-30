@@ -226,8 +226,6 @@ a{
     }
 }
   
-
-/* Animation styles */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -236,15 +234,55 @@ a{
         opacity: 1;
     }
   }
-  
-  /* Apply initial hidden state for the animation */
   .nav, .main-content {
     opacity: 0;
 }
-  
-  /* Classes to trigger fade-in */
   .fade-in {
     opacity: 1;
     transition: opacity 1s ease-in-out;
 }
   
+
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 1px;
+}
+
+#search-box {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    outline: none;
+    transition: width 0.3s ease, opacity 0.3s;
+    width: 0;
+    opacity: 0;
+}
+
+#search-icon {
+    font-size: 20px;
+    color: #555;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: color 0.2s ease-in-out;
+}
+
+#search-icon:hover {
+    color: #000;
+}
+
+.search-container:hover #search-box {
+    width: 100px; 
+    opacity: 1;
+}
+
+
+.nav-part-2 {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
