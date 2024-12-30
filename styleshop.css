@@ -1,0 +1,50 @@
+body{
+    background-color: #d0d4D5;
+}
+
+form{
+    text-align: center;
+    margin: 50px;
+    font-family: "Inter", sans-serif;
+}
+
+input{
+    height: 20px;
+    width: 300px;
+    border-style: none;
+    outline: none;
+    background: transparent;
+
+}
+
+fieldset{
+    text-align: left;
+    height: 30px;
+    border-radius: 5px;
+    width: 10px;
+}
+
+img{
+    height: 140px;
+}
+
+button{
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gainsboro;
+    border-radius: 8px;
+    
+}
+
+.container{
+    max-width: 455px;
+    padding: 1px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
